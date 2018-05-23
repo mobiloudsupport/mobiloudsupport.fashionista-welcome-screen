@@ -1,0 +1,64 @@
+body, html { height:100%; }
+
+.bg-pink {
+    background-color:#d26c93;
+    height:75%;
+}
+
+body { background:#f8f9fa !important; }
+
+.bg-light {
+	height:25%;
+}
+
+.row-logo { padding:20% 0; }
+.row-button { padding:15% 0; }
+
+.btn-flair {
+    background-color:#9a9a9a;
+    padding: 1rem 4rem;
+    border-radius:0;
+    border:0;
+    box-shadow:0 0 3px rgba(0,0,0, 0.2);
+    font-family:"HelveticaNeue", Arial, sans-serif;
+}
+
+p { 
+    font-family:"Myriad Pro", Arial, sans-serif; 
+}
+
+a {
+    color:#FFF !important;
+}
+
+.container-fluid, .bg-light .row { height:100%; }
+
+@media only screen and (max-width: 320px) {
+	p { font-size:0.8em !important; }
+	.row-button { padding:13% 0 !important; }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+	p { font-size:0.9em !important; }
+	.row-button { padding:14% 0 !important; }
+}
+
+@media only screen and (min-width: 640px) {
+
+	.bg-pink, .bg-light { height:auto; }
+	.row-logo { padding:8%; }
+	.bg-pink { padding:5%; }
+	.row-button { padding:5%; }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	p { font-size:1.4em !important; }
+	.row-button { padding:11% 0 !important; }
+}
+
+@media only screen and (min-width: 1024px) {
+	p { font-size:1.8em !important; }
+	.row-button { padding:11% 0 !important; }
+	.btn-flair { padding:2rem 7rem !important; font-size:2rem !important; }
+}

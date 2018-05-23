@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<title>Welcome Screen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script>
+var is_ios = /(iPhone|iPod|iPad).*AppleWebKit.*Safari/i.test(navigator.userAgent);
+</script>
+    <section class="bg-pink">
+        <div class="container-fluid">
+            <div class="row row-logo">
+                <div class="col-1">
+
+                </div>
+                <div class="col-10">
+                    <img class="align-middle img-fluid mx-auto d-block" src="images/logo.png" />
+                </div>
+                <div class="col-1">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+
+                </div>
+                <div class="col-8">
+                    <p class="text-center text-white font-weight-normal">
+			<script>
+			if(is_ios) {
+				document.write('Wij gebruiken informatie verzameld over je gebruik van de app om deze te verbeteren, wij en adverteerders doen dit om advertenties af te stemmen op je voorkeuren. Je kunt dit beheren in de <strong><a href="https://support.apple.com/en-us/HT202074">instellingen van je toestel.</a></strong> De verzamelde informatie wordt verwerkt volgens het <strong><a href="http://corporate.sanoma.be/legal/html/website_disclaimer_nl.php#privacy">privacy-en cookiebeleid</a></strong> van Sanoma.');
+			} else {
+				document.write('Wij gebruiken informatie verzameld over je gebruik van de app om deze te verbeteren, wij en adverteerders doen dit om advertenties af te stemmen op je voorkeuren. Je kunt dit beheren in de <strong><a href="https://support.google.com/ads/answer/2662922">instellingen van je toestel.</a></strong> De verzamelde informatie wordt verwerkt volgens het <strong><a href="http://corporate.sanoma.be/legal/html/website_disclaimer_nl.php#privacy">privacy-en cookiebeleid</a></strong> van Sanoma.');
+			}
+			</script>
+                    </p>
+                </div>
+                <div class="col-2">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="container-fluid">
+            <div class="row row-button">
+                <div class="col-12 text-center">
+                    <button onclick="mlConfirmButton.performClick();" type="button" class="btn btn-secondary btn-lg btn-flair align-middle">Akkoord</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html> 
